@@ -1,0 +1,20 @@
+{
+  "name": "video-Call",
+  "version": "1.0.0",
+  "description": "Video call between 2 people using simple-peer",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+  },
+  "author": "Anshul Reejonia",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.16.4",
+    "simple-peer": "^9.2.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "watchify": "^3.11.1"
+  }
+}
